@@ -30,6 +30,13 @@ import Expenses from './components/Expenses/Expense';
       date: new Date(2021, 5, 12),
     },
   ];
+
+  const addExpenseHandler = expense =>{
+    console.log('In App.js');
+    console.log(expense);
+  }
+
+
   // return React.createElement(
   //   'div', 
   //   {}, 
@@ -38,7 +45,7 @@ import Expenses from './components/Expenses/Expense';
   //  );
   return (
     <div>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses}/>
     </div>
   );
