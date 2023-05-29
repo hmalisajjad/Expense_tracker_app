@@ -25,11 +25,17 @@ Features
 **Styling with Styled Components and CSS Modules:** The app demonstrates how to style React applications using popular libraries like "Styled Components" and "CSS Modules." These libraries offer modular and maintainable styling solutions.
 
 **Installation**
+
 Clone the repository: git clone <repository-url>
+  
 Navigate to the project directory: cd React_app
+  
 Install the dependencies: npm install
+  
 Start the development server: npm start
+  
 Open your browser and visit: http://localhost:3000
+  
 Feel free to explore the code and customize the app to fit your needs.
 
 **License**
